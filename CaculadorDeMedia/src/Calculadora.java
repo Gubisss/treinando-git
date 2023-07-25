@@ -20,14 +20,14 @@ public class Calculadora {
 	        nota4=teclado.nextDouble();
 
 	        media1=(nota1+nota2+nota3+nota4)/4;
-	        pontos1= (media1*4)/100;
+	        pontos1= ((media1*0.6)*0.4)/10;
 
 	        System.out.println("Sua nota só dos CP/Sprint é : " + pontos1);
 
 	        System.out.println("Digite com quanto você ficou no primeiro semestre ( 0 a 100) ");
 	        semestre1= teclado.nextDouble();
 
-	        semestre2= ((pontos1+(semestre1*4))/4)/100;
+	        semestre2= ((semestre1*0.4)*0.4)/10;
 
 	        pontos2= semestre2+pontos1;
 
