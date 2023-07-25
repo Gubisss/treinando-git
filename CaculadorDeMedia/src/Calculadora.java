@@ -27,7 +27,7 @@ public class Calculadora {
 	        System.out.println("Digite com quanto você ficou no primeiro semestre ( 0 a 100) ");
 	        semestre1= teclado.nextDouble();
 
-	        semestre2= ((semestre1*0.4)*0.4)/10;
+	        semestre2= ((semestre1*0.4))/10;
 
 	        pontos2= semestre2+pontos1;
 
